@@ -1,0 +1,270 @@
+2022-03-15T10:14:22.253+0530 INFO Starting OnlineTermInsurance on inlen8520027115 with PID 32656 (C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T10:14:22.256+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T10:14:24.605+0530 INFO Started OnlineTermInsurance in 2.544 seconds (JVM running for 3.282)
+2022-03-15T10:15:10.828+0530 INFO Add user details
+2022-03-15T10:15:10.835+0530 INFO User Service Add user
+2022-03-15T10:15:25.934+0530 INFO Add user details
+2022-03-15T10:15:25.942+0530 INFO User Service Add user
+2022-03-15T10:15:31.143+0530 INFO Add user details
+2022-03-15T10:15:31.144+0530 INFO User Service Add user
+2022-03-15T10:16:08.955+0530 INFO ErrorDetails class
+2022-03-15T10:16:08.957+0530 INFO timestamp
+2022-03-15T10:16:08.958+0530 INFO query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2
+2022-03-15T10:16:08.958+0530 INFO uri=/api/addusercd
+2022-03-15T11:07:44.801+0530 INFO Starting UserServiceTest on inlen8520027115 with PID 32816 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:07:44.805+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:07:49.199+0530 INFO Started UserServiceTest in 4.585 seconds (JVM running for 6.139)
+2022-03-15T11:07:49.281+0530 INFO User Service get all
+2022-03-15T11:07:49.373+0530 INFO User Service get by id
+2022-03-15T11:09:13.279+0530 INFO Starting UserServiceTest on inlen8520027115 with PID 27536 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:09:13.283+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:09:16.982+0530 INFO Started UserServiceTest in 3.891 seconds (JVM running for 5.141)
+2022-03-15T11:09:17.048+0530 INFO User Service get all
+2022-03-15T11:09:17.119+0530 INFO User Service get by id
+2022-03-15T11:09:36.469+0530 INFO Starting UserServiceTest on inlen8520027115 with PID 30188 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:09:36.472+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:09:40.260+0530 INFO Started UserServiceTest in 3.976 seconds (JVM running for 5.239)
+2022-03-15T11:09:40.331+0530 INFO User Service get all
+2022-03-15T11:09:40.426+0530 INFO User Service get by id
+2022-03-15T11:10:41.345+0530 INFO Starting UserPolicyServiceTesting on inlen8520027115 with PID 17108 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:10:41.348+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:10:45.348+0530 INFO Started UserPolicyServiceTesting in 4.189 seconds (JVM running for 5.505)
+2022-03-15T11:10:45.439+0530 INFO User Policy Service get by Id
+2022-03-15T11:10:45.491+0530 INFO User Policy Service get all
+2022-03-15T11:11:26.780+0530 INFO Starting UserPolicyServiceTesting on inlen8520027115 with PID 18312 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:11:26.783+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:11:30.440+0530 INFO Started UserPolicyServiceTesting in 3.848 seconds (JVM running for 5.104)
+2022-03-15T11:12:39.665+0530 INFO Starting UserPolicyServiceTesting on inlen8520027115 with PID 24124 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:12:39.667+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:12:43.485+0530 INFO Started UserPolicyServiceTesting in 4.002 seconds (JVM running for 5.217)
+2022-03-15T11:17:55.038+0530 INFO Starting userPolicyServiceTest on inlen8520027115 with PID 19584 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:17:55.041+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:17:58.819+0530 INFO Started userPolicyServiceTest in 3.97 seconds (JVM running for 5.252)
+2022-03-15T11:17:58.873+0530 INFO Policy Service get all
+2022-03-15T11:17:58.941+0530 INFO Policy Service get by id
+2022-03-15T11:18:09.057+0530 INFO Starting PaymentServiceTest on inlen8520027115 with PID 32020 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:18:09.059+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:18:13.025+0530 INFO Started PaymentServiceTest in 4.137 seconds (JVM running for 5.409)
+2022-03-15T11:18:13.100+0530 INFO Payment Service total amount paid
+2022-03-15T11:18:13.160+0530 INFO Payment Service findbyreciept no
+2022-03-15T11:18:13.167+0530 INFO Payment Service find by UserIdAndPolicyNo
+2022-03-15T11:18:13.184+0530 INFO Payment Service make Payment
+2022-03-15T11:18:13.189+0530 INFO Payment Service get all
+2022-03-15T11:23:09.162+0530 INFO Starting userPolicyServiceTest on inlen8520027115 with PID 18468 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:23:09.164+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:23:12.766+0530 INFO Started userPolicyServiceTest in 3.79 seconds (JVM running for 5.081)
+2022-03-15T11:23:12.819+0530 INFO Policy Service get all
+2022-03-15T11:23:12.916+0530 INFO Policy Service get by id
+2022-03-15T11:24:43.430+0530 INFO Starting PaymentServiceTest on inlen8520027115 with PID 30332 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:24:43.434+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:24:47.112+0530 INFO Started PaymentServiceTest in 3.874 seconds (JVM running for 5.282)
+2022-03-15T11:24:47.179+0530 INFO Payment Service total amount paid
+2022-03-15T11:24:47.234+0530 INFO Payment Service findbyreciept no
+2022-03-15T11:24:47.239+0530 INFO Payment Service find by UserIdAndPolicyNo
+2022-03-15T11:24:47.251+0530 INFO Payment Service make Payment
+2022-03-15T11:24:47.257+0530 INFO Payment Service get all
+2022-03-15T11:25:32.468+0530 INFO Starting PaymentServiceTest on inlen8520027115 with PID 30092 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:25:32.471+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:25:36.202+0530 INFO Started PaymentServiceTest in 3.93 seconds (JVM running for 5.262)
+2022-03-15T11:26:35.964+0530 INFO Starting userPolicyServiceTest on inlen8520027115 with PID 23556 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:26:35.967+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:26:40.300+0530 INFO Started userPolicyServiceTest in 4.517 seconds (JVM running for 5.813)
+2022-03-15T11:26:40.372+0530 INFO Policy Service get all
+2022-03-15T11:26:40.455+0530 INFO Policy Service get by id
+2022-03-15T11:26:58.034+0530 INFO Starting userPolicyServiceTest on inlen8520027115 with PID 22608 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:26:58.037+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:27:01.854+0530 INFO Started userPolicyServiceTest in 4.003 seconds (JVM running for 5.281)
+2022-03-15T11:27:10.718+0530 INFO Starting UserPolicyServiceTesting on inlen8520027115 with PID 23072 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master)
+2022-03-15T11:27:10.721+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T11:27:14.780+0530 INFO Started UserPolicyServiceTesting in 4.244 seconds (JVM running for 5.586)
+2022-03-15T11:27:14.879+0530 INFO User Policy Service get by Id
+2022-03-15T11:27:14.936+0530 INFO User Policy Service get all
+2022-03-15T16:44:17.625+0530 INFO Starting OnlineTermInsurance on inlen8520027115 with PID 9336 (C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2)\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T16:44:17.628+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T16:44:20.204+0530 INFO Started OnlineTermInsurance in 2.784 seconds (JVM running for 3.538)
+2022-03-15T16:45:20.978+0530 INFO Add user details
+2022-03-15T16:45:20.982+0530 INFO User Service Add user
+2022-03-15T16:46:36.967+0530 INFO Add user details
+2022-03-15T16:46:36.968+0530 INFO User Service Add user
+2022-03-15T16:46:49.210+0530 INFO Get all User Details
+2022-03-15T16:46:49.211+0530 INFO User Service get all
+2022-03-15T17:02:25.990+0530 INFO Starting OnlineTermInsurance on inlen8520027115 with PID 25928 (C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2)\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T17:02:25.994+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T17:03:36.123+0530 INFO Starting OnlineTermInsurance on inlen8520027115 with PID 19348 (C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2)\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T17:03:36.127+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T17:03:39.296+0530 INFO Started OnlineTermInsurance in 3.447 seconds (JVM running for 4.33)
+2022-03-15T17:13:40.097+0530 INFO Starting OnlineTermInsurance on inlen8520027115 with PID 26848 (C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2)\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T17:13:40.101+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T17:13:43.509+0530 INFO Started OnlineTermInsurance in 3.667 seconds (JVM running for 4.653)
+2022-03-15T23:26:03.889+0530 INFO Starting PolicyServiceTest on inlen8520027115 with PID 21484 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T23:26:03.893+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T23:26:08.778+0530 INFO Started PolicyServiceTest in 5.148 seconds (JVM running for 6.999)
+2022-03-15T23:26:08.842+0530 INFO Policy Service get all
+2022-03-15T23:26:08.916+0530 INFO Policy Service get by id
+2022-03-15T23:26:52.289+0530 INFO Starting userPolicyServiceTest on inlen8520027115 with PID 22552 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T23:26:52.293+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T23:26:56.615+0530 INFO Started userPolicyServiceTest in 4.56 seconds (JVM running for 6.149)
+2022-03-15T23:26:56.677+0530 INFO Policy Service get all
+2022-03-15T23:26:56.749+0530 INFO Policy Service get by id
+2022-03-15T23:28:32.412+0530 INFO Starting userPolicyServiceTest on inlen8520027115 with PID 20372 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T23:28:32.417+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T23:28:36.623+0530 INFO Started userPolicyServiceTest in 4.416 seconds (JVM running for 5.942)
+2022-03-15T23:28:36.684+0530 INFO Policy Service get all
+2022-03-15T23:28:36.756+0530 INFO Policy Service get by id
+2022-03-15T23:28:36.767+0530 INFO Update Policy Service by Id
+2022-03-15T23:28:36.769+0530 INFO Policy ot found for this id :: 127
+2022-03-15T23:30:11.251+0530 INFO Starting userPolicyServiceTest on inlen8520027115 with PID 27984 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T23:30:11.256+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T23:30:15.461+0530 INFO Started userPolicyServiceTest in 4.422 seconds (JVM running for 6.049)
+2022-03-15T23:30:15.524+0530 INFO Update Policy Service by Id
+2022-03-15T23:30:15.527+0530 INFO Policy ot found for this id :: 127
+2022-03-15T23:30:32.310+0530 INFO Starting userPolicyServiceTest on inlen8520027115 with PID 26004 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T23:30:32.314+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T23:30:36.768+0530 INFO Started userPolicyServiceTest in 4.668 seconds (JVM running for 6.28)
+2022-03-15T23:30:36.839+0530 INFO Policy Service get all
+2022-03-15T23:30:36.923+0530 INFO Policy Service get by id
+2022-03-15T23:30:36.934+0530 INFO Update Policy Service by Id
+2022-03-15T23:30:36.936+0530 INFO Policy ot found for this id :: 127
+2022-03-15T23:31:57.929+0530 INFO Starting userPolicyServiceTest on inlen8520027115 with PID 26260 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T23:31:57.933+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T23:32:02.144+0530 INFO Started userPolicyServiceTest in 4.423 seconds (JVM running for 5.978)
+2022-03-15T23:32:02.204+0530 INFO Policy Service get all
+2022-03-15T23:32:02.284+0530 INFO Policy Service get by id
+2022-03-15T23:34:49.771+0530 INFO Starting TestLoginServiceImpl on inlen8520027115 with PID 27732 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T23:34:49.775+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T23:34:54.433+0530 INFO Started TestLoginServiceImpl in 4.885 seconds (JVM running for 6.522)
+2022-03-15T23:34:54.524+0530 INFO Login Service get all
+2022-03-15T23:34:54.699+0530 INFO username not found enter valid username....
+2022-03-15T23:36:19.558+0530 INFO Starting TestLoginServiceImpl on inlen8520027115 with PID 33184 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T23:36:19.562+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T23:36:24.588+0530 INFO Started TestLoginServiceImpl in 5.286 seconds (JVM running for 7.414)
+2022-03-15T23:36:24.804+0530 INFO username not found enter valid username....
+2022-03-15T23:43:35.198+0530 INFO Starting TestLoginServiceImpl on inlen8520027115 with PID 24724 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T23:43:35.202+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T23:43:39.450+0530 INFO Started TestLoginServiceImpl in 4.462 seconds (JVM running for 6.051)
+2022-03-15T23:43:39.541+0530 INFO Login Service get all
+2022-03-15T23:43:39.696+0530 INFO username not found enter valid username....
+2022-03-15T23:47:30.991+0530 INFO Starting TestLoginServiceImpl on inlen8520027115 with PID 24868 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T23:47:30.995+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T23:47:35.380+0530 INFO Started TestLoginServiceImpl in 4.607 seconds (JVM running for 6.143)
+2022-03-15T23:54:34.584+0530 INFO Starting OnlineTermInsurance on inlen8520027115 with PID 11408 (C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2)\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-15T23:54:34.592+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-15T23:54:37.752+0530 INFO Started OnlineTermInsurance in 3.434 seconds (JVM running for 4.43)
+2022-03-16T00:02:48.318+0530 INFO Starting userPolicyServiceTest on inlen8520027115 with PID 22296 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T00:02:48.321+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T00:02:52.802+0530 INFO Started userPolicyServiceTest in 4.746 seconds (JVM running for 6.452)
+2022-03-16T00:02:52.883+0530 INFO Policy Service get all
+2022-03-16T00:02:52.973+0530 INFO Policy Service get by id
+2022-03-16T00:05:26.561+0530 INFO Starting userPolicyServiceTest on inlen8520027115 with PID 844 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T00:05:26.565+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T00:05:30.853+0530 INFO Started userPolicyServiceTest in 4.507 seconds (JVM running for 6.079)
+2022-03-16T00:05:30.918+0530 INFO Policy Service get all
+2022-03-16T00:05:30.992+0530 INFO Policy Service get by id
+2022-03-16T00:05:31.001+0530 INFO Update Policy Service by Id
+2022-03-16T00:05:31.003+0530 INFO Policy ot found for this id :: 127
+2022-03-16T00:10:08.192+0530 INFO Starting userPolicyServiceTest on inlen8520027115 with PID 14628 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T00:10:08.196+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T00:10:12.539+0530 INFO Started userPolicyServiceTest in 4.589 seconds (JVM running for 6.187)
+2022-03-16T00:10:12.605+0530 INFO Policy Service get all
+2022-03-16T00:10:12.676+0530 INFO Policy Service get by id
+2022-03-16T00:13:21.743+0530 INFO Starting OnlineTermInsurance on inlen8520027115 with PID 30100 (C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2)\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T00:13:21.747+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T00:13:37.368+0530 INFO Starting OnlineTermInsurance on inlen8520027115 with PID 25568 (C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2)\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T00:13:37.372+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T00:13:40.369+0530 INFO Started OnlineTermInsurance in 3.261 seconds (JVM running for 4.218)
+2022-03-16T00:14:44.969+0530 INFO Get all User Policy
+2022-03-16T00:14:44.980+0530 INFO User Policy Service get all
+2022-03-16T00:16:40.626+0530 INFO Add User Policy
+2022-03-16T00:16:40.627+0530 INFO User Policy Service Add
+2022-03-16T00:19:25.353+0530 INFO Add User Policy
+2022-03-16T00:19:25.354+0530 INFO User Policy Service Add
+2022-03-16T00:20:20.033+0530 INFO Get all User Policy
+2022-03-16T00:20:20.035+0530 INFO User Policy Service get all
+2022-03-16T00:20:39.198+0530 INFO Get User Policy by user Id
+2022-03-16T00:20:39.199+0530 INFO User Policy Service get by user Id and Policy No
+2022-03-16T00:22:05.149+0530 INFO Update User Policy by user Id and Policy No
+2022-03-16T00:22:05.151+0530 INFO User Policy Service get by user Id and Policy No
+2022-03-16T00:22:05.153+0530 INFO User Policy Service update
+2022-03-16T00:23:15.602+0530 INFO Delete User Policy by user Id and Policy No
+2022-03-16T00:23:15.603+0530 INFO User Policy Service get by Id
+2022-03-16T00:23:15.606+0530 INFO User Policy Service delete by Id
+2022-03-16T00:23:42.699+0530 INFO Delete User Policy by user Id and Policy No
+2022-03-16T00:23:42.700+0530 INFO User Policy Service get by Id
+2022-03-16T00:23:42.702+0530 INFO User Policy not found for this id :: 0
+2022-03-16T00:23:42.703+0530 INFO User Policy Service delete by Id
+2022-03-16T00:23:42.709+0530 INFO ErrorDetails class
+2022-03-16T00:23:42.711+0530 INFO timestamp
+2022-03-16T00:23:42.711+0530 INFO Cannot invoke "com.onlinetermInsurance.entity.UserPolicy.getUserpolicyid()" because "userPolicy" is null
+2022-03-16T00:23:42.711+0530 INFO uri=/api/v1/userpolicy/0
+2022-03-16T00:42:00.626+0530 INFO Starting PaymentServiceTest on inlen8520027115 with PID 31464 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T00:42:00.632+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T00:42:08.310+0530 INFO Started PaymentServiceTest in 8.107 seconds (JVM running for 11.095)
+2022-03-16T00:42:08.440+0530 INFO Payment Service total amount paid
+2022-03-16T00:42:08.564+0530 INFO Payment Service findbyreciept no
+2022-03-16T00:42:08.577+0530 INFO Payment Service find by UserIdAndPolicyNo
+2022-03-16T00:42:08.599+0530 INFO Payment Service make Payment
+2022-03-16T00:42:08.610+0530 INFO Payment Service get all
+2022-03-16T00:42:42.717+0530 INFO Starting OnlineTermInsurance on inlen8520027115 with PID 21292 (C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2)\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T00:42:42.724+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T00:42:48.334+0530 INFO Started OnlineTermInsurance in 6.088 seconds (JVM running for 7.881)
+2022-03-16T00:43:37.586+0530 INFO Add user details
+2022-03-16T00:43:37.608+0530 INFO User Service Add user
+2022-03-16T00:43:37.615+0530 INFO ErrorDetails class
+2022-03-16T00:43:37.617+0530 INFO timestamp
+2022-03-16T00:43:37.617+0530 INFO Cannot invoke "String.matches(String)" because "j" is null
+2022-03-16T00:43:37.618+0530 INFO uri=/api/v1/user
+2022-03-16T00:44:11.961+0530 INFO Add user details
+2022-03-16T00:44:11.962+0530 INFO User Service Add user
+2022-03-16T00:44:42.138+0530 INFO Add user details
+2022-03-16T00:44:42.139+0530 INFO User Service Add user
+2022-03-16T00:44:59.624+0530 INFO Get all User Details
+2022-03-16T00:44:59.626+0530 INFO User Service get all
+2022-03-16T00:46:57.154+0530 INFO Adding the user.....
+2022-03-16T00:49:16.991+0530 INFO Starting LoginServiceImplTest on inlen8520027115 with PID 27096 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T00:49:16.997+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T00:49:24.554+0530 INFO Started LoginServiceImplTest in 8.019 seconds (JVM running for 10.989)
+2022-03-16T00:49:24.714+0530 INFO Login Service get all
+2022-03-16T00:49:25.003+0530 INFO username not found enter valid username....
+2022-03-16T00:58:06.972+0530 INFO Starting LoginServiceImplTest on inlen8520027115 with PID 30504 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T00:58:06.980+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T00:58:13.891+0530 INFO Started LoginServiceImplTest in 7.27 seconds (JVM running for 10.064)
+2022-03-16T00:58:14.026+0530 INFO Login Service get all
+2022-03-16T00:58:14.309+0530 INFO username not found enter valid username....
+2022-03-16T01:01:10.680+0530 INFO Starting LoginServiceImplTest on inlen8520027115 with PID 13488 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T01:01:10.686+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T01:01:17.575+0530 INFO Started LoginServiceImplTest in 7.34 seconds (JVM running for 10.174)
+2022-03-16T01:01:33.443+0530 INFO Starting PaymentServiceTest on inlen8520027115 with PID 25748 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T01:01:33.449+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T01:01:40.188+0530 INFO Started PaymentServiceTest in 7.124 seconds (JVM running for 9.846)
+2022-03-16T01:01:40.312+0530 INFO Payment Service total amount paid
+2022-03-16T01:01:40.395+0530 INFO Payment Service findbyreciept no
+2022-03-16T01:01:40.403+0530 INFO Payment Service find by UserIdAndPolicyNo
+2022-03-16T01:01:40.421+0530 INFO Payment Service make Payment
+2022-03-16T01:01:40.430+0530 INFO Payment Service get all
+2022-03-16T01:02:00.043+0530 INFO Starting TestLoginServiceImpl on inlen8520027115 with PID 5540 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T01:02:00.049+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T01:02:06.754+0530 INFO Started TestLoginServiceImpl in 7.087 seconds (JVM running for 9.778)
+2022-03-16T01:02:06.881+0530 INFO Login Service get all
+2022-03-16T01:02:28.689+0530 INFO Starting LoginServiceImplTest on inlen8520027115 with PID 2476 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T01:02:28.694+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T01:02:35.348+0530 INFO Started LoginServiceImplTest in 7.057 seconds (JVM running for 9.762)
+2022-03-16T01:02:35.478+0530 INFO Login Service get all
+2022-03-16T01:02:59.845+0530 INFO Starting UserPolicyServiceTesting on inlen8520027115 with PID 27036 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T01:02:59.852+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T01:03:06.644+0530 INFO Started UserPolicyServiceTesting in 7.191 seconds (JVM running for 10.092)
+2022-03-16T01:03:06.778+0530 INFO User Policy Service get by Id
+2022-03-16T01:03:06.866+0530 INFO User Policy Service get all
+2022-03-16T01:08:08.471+0530 INFO Starting UserPolicyServiceTesting on inlen8520027115 with PID 29036 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T01:08:08.479+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T01:08:15.380+0530 INFO Started UserPolicyServiceTesting in 7.294 seconds (JVM running for 10.067)
+2022-03-16T01:08:15.524+0530 INFO User Policy Service get by Id
+2022-03-16T01:08:15.624+0530 INFO User Policy Service get all
+2022-03-16T01:10:04.740+0530 INFO Starting UserPolicyServiceTesting on inlen8520027115 with PID 17676 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T01:10:04.744+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T01:10:11.669+0530 INFO Started UserPolicyServiceTesting in 7.308 seconds (JVM running for 10.121)
+2022-03-16T01:11:04.379+0530 INFO Starting UserPolicyServiceTesting on inlen8520027115 with PID 27924 (started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T01:11:04.384+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T01:11:11.256+0530 INFO Started UserPolicyServiceTesting in 7.247 seconds (JVM running for 10.155)
+2022-03-16T02:03:24.479+0530 INFO Starting OnlineTermInsurance on inlen8520027115 with PID 26192 (C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2)\target\classes started by dhiragep in C:\Users\DHIRAGEP\Desktop\Online-Term-Insurance-backend-master - Copy (2))
+2022-03-16T02:03:24.488+0530 INFO No active profile set, falling back to default profiles: default
+2022-03-16T02:03:28.998+0530 INFO Started OnlineTermInsurance in 4.915 seconds (JVM running for 5.976)

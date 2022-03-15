@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>4</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>432</x>
+      <y>0</y>
+      <w>296</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes>com.onlinetermInsurance.entity::User
+--
+-//user id auto creation&#13;
+userId: int
+-//name&#13;
+fname: String
+-lname: String
+-//phone&#13;
+phoneNo: Long
+~//address is embedded with address class because no need for address id &#13;
+ad: Address
+-//Date of birth&#13;
+dob: Date
+-aadhar: //@NotNull&#13;
+String
+--
++User(): ctor
++User(@Pattern(regexp = "^[A-Za-z][A-Za-z0-9]{2,10}$", message = "Use First letter should be Alphabet Min 2 and Max 10") @NotNull(message = "first name Should not be Null") String fname, @NotNull(message = "last Name Should not be Null") @NotNull(message = "last name Should not be Null") String lname, Long phoneNo, Address ad, Date dob, String aadhar): ctor
++getUserId(): int
++setUserId(int userId): void
++getFname(): String
++setFname(String fname): void
++getLname(): String
++setLname(String lname): void
++getPhoneNo(): Long
++setPhoneNo(Long phoneNo): void
++getAd(): Address
++setAd(Address ad): void
++getDob(): Date
++setDob(Date dob): void
++getAadhar(): String
++setAadhar(String aadhar): void
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>588</x>
+      <y>268</y>
+      <w>360</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>com.onlinetermInsurance.entity::HealthModule
+--
+-medicalId: Integer
+-aadharNo: String
+-name: String
+-address: String
+-phoneNo: String
+-age: int
+-accident: String
+-alcohol: String
+--
++HealthModule(): ctor
++HealthModule(Integer medicalId, String aadharNo, String name, String address, String phoneNo, int age, String accident, String alcohol): ctor
++getMedicalId(): Integer
++setMedicalId(Integer medicalId): void
++getAadharNo(): String
++setAadharNo(String aadharNo): void
++getName(): String
++setName(String name): void
++getAddress(): String
++setAddress(String address): void
++getPhoneNo(): String
++setPhoneNo(String phoneNo): void
++getAge(): int
++setAge(int age): void
++getAccident(): String
++setAccident(String accident): void
++getAlcohol(): String
++setAlcohol(String alcohol): void
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>268</y>
+      <w>324</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>com.onlinetermInsurance.entity::UserPolicy
+--
+~userpolicyid: int
+~userid: int
+~policyid: int
+~registeredDate: Date
+~amount: double
+~totalTime: int
+~monthOver: int
+~amountPaid: double
+--
++UserPolicy(): ctor
++UserPolicy(int userid, int policyid, Date registeredDate, double amount, int totalTime, int monthOver, double amountPaid): ctor
++getUserpolicyid(): int
++setUserpolicyid(int userpolicyid): void
++getUserid(): int
++setUserid(int userid): void
++getPolicyid(): int
++setPolicyid(int policyid): void
++getRegisteredDate(): Date
++setRegisteredDate(Date registeredDate): void
++getAmount(): double
++setAmount(double amount): void
++getTotalTime(): int
++setTotalTime(int totalTime): void
++getMonthOver(): int
++setMonthOver(int monthOver): void
++getAmountPaid(): double
++setAmountPaid(double amountPaid): void
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>756</x>
+      <y>0</y>
+      <w>204</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>com.onlinetermInsurance.entity::Payments
+--
+-// receipt no&#13;
+receiptNo: int
+-// user id&#13;
+userId: int
+~//policy id bought.&#13;
+policyNo: int
+-//time now&#13;
+dateOfPayment: Date
+-//amount&#13;
+amount: double
+--
++Payments(): ctor
++Payments(int userId, int policyNo, Date dateOfPayment, double amount): ctor
++getReceiptNo(): int
++setReceiptNo(int receiptNo): void
++getUserId(): int
++setUserId(int userId): void
++getPolicyNo(): int
++setPolicyNo(int policyNo): void
++getDateOfPayment(): Date
++setDateOfPayment(Date dateOfPayment): void
++getAmount(): double
++setAmount(double amount): void
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>52</y>
+      <w>376</w>
+      <h>164</h>
+    </coordinates>
+    <panel_attributes>com.onlinetermInsurance.entity::Login
+--
+-lId: int
+-userName: String
+-email: String
+-password: String
+-userType: String
+-user: User
+--
++Login(): ctor
++Login(@NotNull(message = "username should not be null") String userName, @Pattern(regexp = "[A-Za-z0-9]+@[a-z]+\\.[a-z]{2,3}", message = "invalid Email id") String email, String password, String userType, @NotNull User user): ctor
++getEmail(): String
++setEmail(String email): void
++getlId(): int
++setlId(int lId): void
++getUserName(): String
++setUserName(String userName): void
++getPassword(): String
++setPassword(String password): void
++getUserType(): String
++setUserType(String userType): void
++getUser(): User
++setUser(User user): void
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>136</x>
+      <y>520</y>
+      <w>300</w>
+      <h>164</h>
+    </coordinates>
+    <panel_attributes>com.onlinetermInsurance.entity::Policy
+--
+~id: int
+-description: String
+-yearsOfPayment: int
+-amount: double
+-maturityperiod: int
+-maturityamount: double
+--
++Policy(): ctor
++Policy(int id, String description, int yearsOfPayment, double amount, int maturityperiod, double maturityamount): ctor
++getId(): int
++setId(int id): void
++getDescription(): String
++setDescription(String description): void
++getYearsOfPayment(): int
++setYearsOfPayment(int yearsOfPayment): void
++getAmount(): double
++setAmount(double d): void
++getMaturityperiod(): int
++setMaturityperiod(int maturityperiod): void
++getMaturityamount(): double
++setMaturityamount(double d): void
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>532</y>
+      <w>204</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>com.onlinetermInsurance.entity::Address
+--
+-houseno: String
+-city: String
+-street: String
+-state: String
+-pin: String
+--
++Address(): ctor
++Address(String houseno, String city, String street, String state, String pin): ctor
++getHouseno(): String
++setHouseno(String houseno): void
++getStreet(): String
++setStreet(String street): void
++getCity(): String
++setCity(String city): void
++getState(): String
++setState(String state): void
++getPin(): String
++setPin(String pin): void
++toString(): String
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>224</y>
+      <w>16</w>
+      <h>316</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>20.0;10.0;10.0;770.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>376</x>
+      <y>172</y>
+      <w>64</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>228</y>
+      <w>12</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>252</x>
+      <y>472</y>
+      <w>12</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>368</x>
+      <y>284</y>
+      <w>208</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>500.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>240</y>
+      <w>12</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>240</y>
+      <w>208</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>500.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>176</y>
+      <w>12</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>724</x>
+      <y>148</y>
+      <w>40</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
